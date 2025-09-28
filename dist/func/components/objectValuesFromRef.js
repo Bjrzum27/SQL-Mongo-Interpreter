@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.objectValuesFromRef=t;function t(e){return{$cond:[{$eq:[e,null]},[],{$cond:[{$eq:[{$type:e},"object"]},{$map:{input:{$objectToArray:e},as:"kv",in:"$$kv.v"}},[]]}]}}

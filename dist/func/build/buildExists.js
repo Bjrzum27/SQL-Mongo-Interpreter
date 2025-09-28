@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.buildExists=s;function s(e){if(e.lookupAlias){const r={$size:{$ifNull:["$"+e.lookupAlias,[]]}};return e.not?{$expr:{$eq:[r,0]}}:{$expr:{$gt:[r,0]}}}if(!e.resolved)throw new Error("Las subconsultas EXISTS deben resolverse antes de compilar");return e.value?{}:{$expr:{$eq:[1,0]}}}

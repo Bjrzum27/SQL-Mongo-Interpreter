@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.mapColumnToPath=f;function f(n,t,u=!1){var r;if(n.paramRef||!((r=n.traversal)===null||r===void 0)&&r.length&&!u)return;const e=n.name.split(".");if(e.length===1)return e[0];const a=e[0],i=e.slice(1).join(".");return a===(t.from.alias||t.from.name)?i:`${a}.${i}`}

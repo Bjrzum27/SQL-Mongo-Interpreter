@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.buildSizeExpression=r;const t=require("../withLet");function r(i){return(0,t.withLet)(i,e=>({$cond:[{$eq:[e,null]},null,{$cond:[{$isArray:e},{$size:e},{$cond:[{$eq:[{$type:e},"object"]},{$size:{$objectToArray:e}},null]}]}]}))}

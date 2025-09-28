@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.arrayValuesFromRef=r;function r($){return{$cond:[{$eq:[$,null]},[],{$cond:[{$isArray:$},{$reduce:{input:$,initialValue:[],in:{$cond:[{$isArray:"$$this"},{$concatArrays:["$$value","$$this"]},{$concatArrays:["$$value",["$$this"]]}]}}},[$]]}]}}

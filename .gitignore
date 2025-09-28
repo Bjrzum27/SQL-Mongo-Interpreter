@@ -1,0 +1,39 @@
+# Dependencias instaladas localmente
+node_modules/
+
+# Archivos temporales de Node.js y gestores de paquetes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Entornos/variables
+.env
+.env.*.local
+
+# Cobertura y artefactos temporales
+temp/
+.tmp/
+coverage/
+*.swp
+
+# Salidas de build adicionales opcionales (mantén comentado si quieres commitear dist)
+# dist/
+
+# Generados por IDEs
+.idea/
+.vscode/
+*.iml
+
+# Paquetes empaquetados generados por npm pack
+dist-*.tgz
+npm-*.tgz
+
+# Archivos de lock alternativos
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

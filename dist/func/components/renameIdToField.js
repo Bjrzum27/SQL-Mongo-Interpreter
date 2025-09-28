@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.renameIdToField=o;function o(e){if(Array.isArray(e))return e.map(o);if(e&&typeof e=="object"){const s={};for(const r of Object.keys(e)){const t=e[r];r==="$and"||r==="$or"?s[r]=t.map(o):r.startsWith("_id.")?s[r.substring(4)]=o(t):s[r]=o(t)}return s}return e}
