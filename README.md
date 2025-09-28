@@ -32,8 +32,8 @@
 
 - 📦 **Paquete npm**: [sql-interpreter-0.2.3.tgz](./sql-interpreter-0.2.3.tgz)
   - Úsalo con `npm install ./sql-interpreter-0.2.3.tgz` para instalar la build empaquetada localmente.
-- 💻 **Aplicación de escritorio**: Ver [Releases](https://github.com/Bjrzum27/SQL-Mongo-Interpreter/releases) para descargar el ejecutable
-  - **Próximamente**: `sql-mongo-interpreter-1.0.0.exe` estará disponible en la primera release
+- 💻 **Aplicación de escritorio**: [SQLMongo.Interpreter.Setup.1.0.0.exe](https://github.com/Bjrzum27/SQL-Mongo-Interpreter/releases/download/v1.0.0/SQLMongo.Interpreter.Setup.1.0.0.exe)
+  - Descarga directa del ejecutable (101 MB) - No requiere instalación previa
 
 ## Introducción
 
